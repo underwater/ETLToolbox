@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ETLToolbox.Core.Interfaces
+namespace ETLToolbox.Core.Readers
 {
-    interface ITransformer
+    class CsvReader
     {
     }
 }

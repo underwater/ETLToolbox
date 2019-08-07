@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ETLToolbox.Core.Interfaces
+namespace ETLToolbox.Core.Writers
 {
-    interface IExtractor
+    class WcfWriter
     {
     }
 }

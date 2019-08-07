@@ -1,0 +1,33 @@
+﻿
+reading from WCF
+-----------------
+connect to a 3rd party system,
+retrieve a bunch of records
+from soap wcf end point
+
+
+Put records in queue
+--------------------
+for each record retrieved, 
+create a message on a input queue
+
+
+
+Transform records
+-----------------
+a listener (or multiple instances) pick up each message
+transform the record (according to a list predefined tranformations) 
+
+example transformations 
+- add charge to each transaction 
+- delay 1 week to the loan date)
+- lookup
+
+write to output queue
+
+
+writer
+------
+pick up each record from output queue and 
+add it to output writer (xml, database etc.)
+
