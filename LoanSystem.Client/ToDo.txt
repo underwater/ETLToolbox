@@ -1,0 +1,8 @@
+﻿Use Complex Types [Data Members]
+Host Service using local console app? 
+Console Client Invokes Service using Tasks  
+How to Log Traffic
+Handle Exceptions
+Roll back transaction ?
+Log to MongoDB
+
