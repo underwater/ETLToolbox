@@ -31,3 +31,12 @@ writer
 pick up each record from output queue and 
 add it to output writer (xml, database etc.)
 
+
+
+notes
+- each module can turn on logging
+- logs can be displayed in some sort of web interface
+- transactional / unit of work patterns ?
+
+
+
