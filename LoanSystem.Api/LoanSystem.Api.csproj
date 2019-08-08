@@ -65,6 +65,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Loan.cs" />
     <Compile Include="Loans.svc.cs">
       <DependentUpon>Loans.svc</DependentUpon>
     </Compile>

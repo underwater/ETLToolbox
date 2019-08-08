@@ -14,10 +14,11 @@ namespace LoanSystem.Api
     {
 
         [OperationContract]
-        string GetLoans();
+        int CreateLoan(Loan loan);
 
         [OperationContract]
-        Guid CreateLoan(string loanName);
+        string GetLoans();
+
 
     }
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cee5659d-965e-4edb-9d05-19a7d53360e6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="86d24a6f-c619-42e9-a830-e006a3848db4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,10 +22,11 @@
     <MetadataSource Address="http://localhost:59651/Loans.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="Loans.xsd" MetadataType="Schema" ID="b7fda258-4669-4875-8054-582dd79e9045" SourceId="1" SourceUrl="http://localhost:59651/Loans.svc?xsd=xsd1" />
-    <MetadataFile FileName="Loans.wsdl" MetadataType="Wsdl" ID="deea2d96-1c7d-4f2e-b9fc-ce4987b5c3fe" SourceId="1" SourceUrl="http://localhost:59651/Loans.svc?wsdl" />
-    <MetadataFile FileName="Loans1.xsd" MetadataType="Schema" ID="07492ab8-137a-4664-b057-f097fc36db52" SourceId="1" SourceUrl="http://localhost:59651/Loans.svc?xsd=xsd0" />
-    <MetadataFile FileName="Loans.disco" MetadataType="Disco" ID="ccc7555a-fb39-4781-8346-21bd8d3ca949" SourceId="1" SourceUrl="http://localhost:59651/Loans.svc?disco" />
+    <MetadataFile FileName="Loans.xsd" MetadataType="Schema" ID="3819e407-bd96-4e5e-a998-2fb6227510b1" SourceId="1" SourceUrl="http://localhost:59651/Loans.svc?xsd=xsd2" />
+    <MetadataFile FileName="Loans1.xsd" MetadataType="Schema" ID="cd2badff-f794-4d30-9d9a-027a4d03d433" SourceId="1" SourceUrl="http://localhost:59651/Loans.svc?xsd=xsd1" />
+    <MetadataFile FileName="Loans.wsdl" MetadataType="Wsdl" ID="c9a3fc7b-380b-4da7-8c8b-f956ef6ac57c" SourceId="1" SourceUrl="http://localhost:59651/Loans.svc?wsdl" />
+    <MetadataFile FileName="Loans2.xsd" MetadataType="Schema" ID="b8fba1fc-9305-484c-85d1-fa98c42accc0" SourceId="1" SourceUrl="http://localhost:59651/Loans.svc?xsd=xsd0" />
+    <MetadataFile FileName="Loans.disco" MetadataType="Disco" ID="3d164d42-5b3d-4eb9-9f6f-0cf9fc9bd0ed" SourceId="1" SourceUrl="http://localhost:59651/Loans.svc?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

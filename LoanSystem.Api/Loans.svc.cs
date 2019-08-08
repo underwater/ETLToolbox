@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.ServiceModel;
-using System.ServiceModel.Web;
-using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace LoanSystem.Api
 {
@@ -13,11 +9,19 @@ namespace LoanSystem.Api
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
     public class Loans : ILoans
     {
-        public Guid CreateLoan(string loanName)
+        public int CreateLoan(Loan loan)
         {
-            var guid = Guid.NewGuid();
-            Debug.WriteLine($"New Loan Created : {guid}");
-            return guid;
+
+            Debug.WriteLine($"Start creating of Loan ......");
+            throw new InvalidOperationException("Something went wrong on server");
+
+            //artificial delay
+            Thread.Sleep(5000);
+
+            Debug.WriteLine($"Completed creation new Loan Id: {loan.Id}");
+
+
+            //return loan.Id;
         }
 
         public string GetLoans()
